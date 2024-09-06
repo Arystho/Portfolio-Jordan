@@ -1,0 +1,199 @@
+/* -------font--------- */
+
+
+
+/* -------Général------- */
+
+:root{
+    --main-beige: rgb(218, 197, 167);
+    --second-black: rgb(33, 33, 33);
+    --second-white: rgb(255, 255, 255);  
+    --fond-header: rgb(218, 197, 167, 0.1);
+}
+*{
+    margin: 0;
+}
+body{
+    background: var(--second-black);
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1, h2{
+    font-size: 36px;
+    color: var(--main-beige);
+}
+h3{
+    font-size: 20px;
+    color: var(--main-beige);
+}
+p{
+    font-size: 16px;
+    color: var(--main-beige);
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: var(--main-beige);
+}
+a:hover{
+    color: var(--second-white);
+}
+img{
+    width: 100%;
+    height: auto;
+}
+
+/* -------Header------- */
+header{
+    /* max-width: 1440px; */
+    background: var(--fond-header);
+    border: 1px solid var(--fond-header);
+    margin: auto;
+    /* padding: 40px; */
+}
+header div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px;
+
+}
+header nav{
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+}
+header nav ul{
+    display: flex;
+    gap: 50px;
+}
+
+/* -------main------- */
+main{
+    max-width: 1440px;
+    margin: auto;
+    padding: 40px;
+}
+
+main .btn{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    align-items: center;
+    padding: 57px;
+}
+.btn a{
+    background: var(--fond-header);
+    border: 1px solid var(--fond-header);
+    padding: 11px 13px;
+    border-radius: 20px;
+}
+
+/* section 1 */
+main section .dev{
+    display: grid;
+    padding: 30px 15px;
+    text-align: center;
+    gap: 15px;
+}
+
+/* section 2 */
+#section_2 #apropos p{
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    padding: 30px 15px;
+    width: 308px;
+    background: var(--fond-header);
+    border: 1px solid var(--fond-header);
+}
+#section_2 #apropos div img{
+    width: 30%;
+    height: auto;
+    opacity: 0.5;
+}
+#section_2 #apropos .desc{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    align-items: center;
+}
+
+#section_2 #apropos h2{
+    display: flex;
+    padding: 62px;
+}
+
+/* section 3 */
+#section_3{
+    max-width: 1440px;
+    margin: auto;
+}
+#section_3 article img{
+    width: 100%;
+    height: 49%;
+    position: relative;
+    right: 23px;
+    padding: 23px;
+    object-fit: cover;
+}
+#section_3 .div-c{
+    display: flex;
+    gap: 40px;
+}
+#section_3 #projets{
+    display: flex;
+    justify-content: space-between;
+    padding: 90px 0 40px;
+}
+#section_3 #projets a{
+    border: 1px solid;
+    padding: 10px 10px;
+}
+#section_3 article{
+    border: 1px solid;
+    padding: 14px;
+}
+#section_3 .div-c article .btn-1{ 
+    border: 1px solid;
+    padding: 5px 8px;
+    position: relative;
+    top: 22px;
+}
+#section_3 .div-c article a:hover,
+#section_3 .projets a:hover{
+    background: var(--pink);
+}
+
+/* -------footer------- */
+
+footer{
+    background: var(--fond-header);
+    border: 1px solid var(--fond-header);
+    /* max-width: 1440px; */
+    margin: auto;
+    padding: 40px;
+}
+footer .titre{
+    text-align: center;
+    padding-bottom: 30px;
+}
+footer div{
+    display: flex;
+    justify-content: space-between;
+}
+footer div article ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+footer article ul li a{
+    gap: 10px;
+    display: flex;
+}
+footer p{
+    display: flex;
+    justify-content: center;
+}
