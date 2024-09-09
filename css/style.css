@@ -12,6 +12,7 @@
 }
 *{
     margin: 0;
+    scroll-behavior: smooth;
 }
 body{
     background: var(--second-black);
@@ -92,7 +93,7 @@ main .btn{
 }
 
 /* section 1 */
-main section .dev{
+#section_1 .dev{
     display: grid;
     padding: 30px 15px;
     text-align: center;
@@ -161,14 +162,113 @@ main section .dev{
 #section_3 .div-c article .btn-1{ 
     border: 1px solid;
     padding: 5px 8px;
-    position: relative;
-    top: 22px;
+    display: inline-block;
 }
-#section_3 .div-c article a:hover,
-#section_3 .projets a:hover{
-    background: var(--pink);
+#section_3 .div-c article div{
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
 }
 
+/* section 4 */
+#section_4{
+    background: var(--white-grey);
+    /* margin-top: 96px; */
+}
+
+ #section_4 div{
+   /* max-width: 1440px;*/
+    margin: auto;
+} 
+
+#section_4 div .us{
+    display: flex;
+    position: relative;
+    gap: 20px;
+    padding: 55px 0;
+}
+
+#section_4 div .us hr{
+    width: 65px;
+    border: 1px solid var(--green);
+    height: 0;
+    position: relative;
+    top: 28px;
+}
+
+#section_4 div #contacter{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+}
+
+#section_4 div #contacter article #ia{
+    padding: 20px 0;
+}
+
+#section_4 #contacter article{
+    top: 109px;
+    position: relative;
+    padding-right: 79px;
+}
+
+#section_4 #contacter article p{
+    max-width: 500px;
+}
+
+#section_4 #ia div{
+    display: flex;
+    gap: 10px;
+    margin: 20px 0;
+}
+
+#section_4 #ia div i{
+    color: var(--main-beige);
+}
+
+#section_4 #ia div a{
+    font-weight: 400;
+}
+
+#section_4 #contact form{
+    gap: 20px;
+    display: grid;
+}
+
+#section_4 #contacter form #checkbox{
+    display: flex;
+    gap: 10px;
+}
+
+#section_4 div form .email{
+    border: 1px solid #69727D;
+    width: 537px;
+    height: 21px;
+    padding: 10px 17px 10px 17px;
+    margin-bottom: 20px;
+}
+
+#section_4 div form textarea{
+    border: 1px solid #69727D;
+    width: 537px;
+    height: 108px;
+    padding: 10px 17px 10px 17px;
+    border-radius: 3px 0px 0px 0px;
+    margin-bottom: 30px;
+}
+
+#section_4 div #contacter form button{
+    width: 88px;
+    padding: 12px 0;
+    border-radius: 3px;
+    border: 1px solid var(--fond-header);
+    background: var(--fond-header);
+    color: var(--main-beige);
+    margin: 20px 0;
+}
+#section_4 div #contacter form button:hover{
+    color: var(--second-white);
+}
 /* -------footer------- */
 
 footer{
