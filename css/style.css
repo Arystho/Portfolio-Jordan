@@ -48,7 +48,7 @@ img{
 
 /* -------Header------- */
 header{
-    /* max-width: 1440px; */
+    max-width: 1440px;
     background: var(--fond-header);
     border: 1px solid var(--fond-header);
     margin: auto;
@@ -267,7 +267,7 @@ main .btn{
 footer{
     background: var(--fond-header);
     border: 1px solid var(--fond-header);
-    /* max-width: 1440px; */
+    max-width: 1440px;
     margin: auto;
     padding: 40px;
 }
@@ -292,4 +292,49 @@ footer article ul li a{
 footer p{
     display: flex;
     justify-content: center;
+}
+
+/* -------Responsive-------- */
+
+@media screen and (max-width: 1024px) {
+    header div {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    header nav ul {
+        gap: 30px;
+    }
+
+    main {
+        padding: 20px;
+    }
+
+    #section_3 .div-c {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+}
+
+@media screen and (max-width: 767px) {
+
+    header nav ul {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    #section_3 #projets {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #section_4 div #contacter form .email,
+    #section_4 div form textarea {
+        width: 100%;
+    }
+
+    footer div {
+        text-align: center;
+    }
 }
