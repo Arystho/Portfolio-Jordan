@@ -140,6 +140,9 @@ main .btn{
     padding: 23px;
     bottom: 20px;
 }
+#section_3 .div-c div p{
+    width: 358px;
+}
 #section_3 .div-c{
     display: flex;
     gap: 40px;

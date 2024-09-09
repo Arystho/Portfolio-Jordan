@@ -1,5 +1,0 @@
-home key
-Le projet Home Key est un site web de réservation d'hébergements de vacances, inspiré du site Booki d'OpenClassrooms. Il propose une interface simple permettant aux utilisateurs de trouver des logements dans différentes villes (comme Madrid), avec des filtres pour les préférences telles que la mer, la montagne, la nature ou les villes. Le site offre également des suggestions d'activités à proximité des hébergements, telles que des activités nautiques, en montagne, ou en ville. Un design épuré rend la navigation fluide et agréable pour les utilisateurs.
-
-filo 
-Le projet Fylo est un site web moderne et élégant destiné à la gestion de fichiers et au stockage en ligne. Il met en avant une interface utilisateur minimaliste et intuitive, permettant de stocker et de partager des fichiers en toute sécurité. Le design responsive du site garantit une expérience fluide sur différents appareils, tout en offrant des fonctionnalités telles que la collaboration en équipe et la sauvegarde automatique. Ce projet met en valeur un équilibre entre esthétique et fonctionnalité.
