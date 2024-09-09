@@ -163,6 +163,7 @@ main .btn{
     border: 1px solid;
     padding: 5px 8px;
     display: inline-block;
+    margin: 10px 0;
 }
 #section_3 .div-c article div{
     display: flex;
